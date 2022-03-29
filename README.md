@@ -23,7 +23,7 @@ This is an example of the dataset is used for training
 **Autocorrelation (ACF)**:  
  ![acf](/images/acf.png)
  
- Autocorrelation is the correlation of a single time series with a lagged copy of itself
+ Autocorrelation is the correlation of a single time series with a lagged copy of itself\
 **Partial Autocorrelation (PACF)**:  
  ![pacf](/images/pacf.png)
  
