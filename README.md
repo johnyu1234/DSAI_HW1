@@ -40,6 +40,11 @@ smodel = auto_arima(train, start_p=1, start_q=1,
                            stepwise=True)
 ```
 Returns best ARIMA model according to AIC value
+
+**Akaike information criterion (PACF)**:  
+AIC is a mathematical method for evaluating how well a model fits the data it was generated from.
+-the number of independent variables used to build the model.
+-the maximum likelihood estimate of the model (how well the model reproduces the data).
 ## Recreating the environment and run the model##
 requirement libaries
 ```
