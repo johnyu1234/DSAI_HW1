@@ -43,7 +43,8 @@ if __name__ == '__main__':
     df_training['日期'] = pd.to_datetime(df_training['日期'], format='%Y-%m-%d')
     df_training.set_index('日期', inplace=True)
     # result = seasonal_decompose(df['備轉容量(MW)'], model='additive',extrapolate_trend='freq')
-
+    # result.plot()
+    # plt.show()
     # smodel = auto_arima(train, start_p=1, start_q=1,
     #                          test='adf',
     #                          max_p=7, max_q=7, m=7,
@@ -57,7 +58,7 @@ if __name__ == '__main__':
     # smodel.summary()
     model = ARIMA(df_training,order=(2, 0, 1) ,seasonal_order=(6,1,6,7), enforce_stationarity=False, enforce_invertibility=False)
     model_fit = model.fit()
-    # print(model_fit.summary())
+    print(model_fit.summary())
     df_result = model_fit.predict(start='2022-03-30', end='2022-4-13')
 
     # conversion of series to dataframe
