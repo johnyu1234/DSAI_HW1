@@ -48,7 +48,7 @@ Returns best ARIMA model according to AIC value
 AIC is a mathematical method for evaluating how well a model fits the data it was generated from.
 - the number of independent variables used to build the model.
 - the maximum likelihood estimate of the model (how well the model reproduces the data).
-## Recreating the environment and run the model##
+## Recreating the environment and run the model
 requirement libaries
 ```
 pip3 install -r requirements.txt
