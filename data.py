@@ -2,7 +2,9 @@ import csv
 import pandas as pd 
 import io
 import requests
+# this code is used to create training_data.csv 
 
+# please do no run this code for prediction as it collects the latest data and combine them to create the training data
 url = 'https://data.taipower.com.tw/opendata/apply/file/d006005/台灣電力公司_過去電力供需資訊.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
@@ -23,4 +25,4 @@ index = df.index
 is_dupli = index.duplicated(keep="first")
 not_dupli = ~is_dupli
 df = df[not_dupli]
-df.to_csv("training.csv")
+df.to_csv("training_data.csv")
