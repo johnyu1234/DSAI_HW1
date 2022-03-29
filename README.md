@@ -18,13 +18,13 @@ This is an example of the dataset is used for training
  ![Dataset example](/images/dataset_example.png)
 
 **Seasonal Decompose**:  
- ![Seasonal Decompose|width=400px](/images/seasonal_decompose.png)
+ ![Seasonal Decompose](/images/seasonal_decompose.png)
  
 **Autocorrelation (ACF)**:  
- ![acf|width=400px](/images/acf.png)
+ ![acf](/images/acf.png)
  
 **Partial Autocorrelation (PACF) **:  
- ![pacf|width=400px](/images/pacf.png)
+ ![pacf](/images/pacf.png)
 
 ## Selecting best parameters for Model fitting using auto_arima()
 ```
