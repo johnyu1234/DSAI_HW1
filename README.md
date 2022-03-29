@@ -7,18 +7,18 @@ Given a time series electricity data to predict the value of the operating reser
 ## Dataset Used
 
 Dataset is extracted from [台灣電力公司](https://data.gov.tw/).  
-1. 台灣電力公司_過去電力供需資訊(https://data.gov.tw/dataset/19995)  
+1.台灣電力公司_過去電力供需資訊(https://data.gov.tw/dataset/19995)  
 2.台灣電力公司_本年度每日尖峰備轉容量率(https://data.gov.tw/dataset/25850)
 
 For this project, we'll be only using the 備轉容量(Operating Reserve) in MW for the time series prediction
 
 
 ## Data Analysis
+ ![Dataset example](/images/dataset_example.png)
 
 
-
-**KPSS test**:  
-
+**Seasonal Decompose **:  
+![Seasonal Decompose](/images/seasonal_decompose.png)
 
 ## Model & Feature Selection
 
