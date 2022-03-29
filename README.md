@@ -17,7 +17,7 @@ For this project, we'll be only using the 備轉容量(Operating Reserve) in MW 
 This is an example of the dataset is used for training
  ![Dataset example](/images/dataset_example.png)
 
-** Seasonal Decompose **:
+**Seasonal Decompose**:  
  ![Seasonal Decompose](/images/seasonal_decompose.png)
 
 ## Model parameters 
