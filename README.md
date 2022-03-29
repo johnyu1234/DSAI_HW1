@@ -23,7 +23,7 @@ This is an example of the dataset is used for training
 **Autocorrelation (ACF)**:  
  ![acf](/images/acf.png)
  
-**Partial Autocorrelation (PACF) **:  
+**Partial Autocorrelation (PACF)**:  
  ![pacf](/images/pacf.png)
 
 ## Selecting best parameters for Model fitting using auto_arima()
