@@ -17,8 +17,15 @@ For this project, we'll be only using the 備轉容量(Operating Reserve) in MW 
 This is an example of the dataset is used for training
  ![Dataset example](/images/dataset_example.png)
 
-**Seasonal Decompose**:  
+**Seasonal Decomposition**:  
  ![Seasonal Decompose](/images/seasonal_decompose.png)
+ 
+ To further understand our time series problem, seasonal decomposition is used to extract 4 different graphs
+ statsmodels libaries provides a function to achieve seasonal decomposition
+- Level: The average value in the series.
+- Trend: The increasing or decreasing value in the series.
+- Seasonality: The repeating short-term cycle in the series.
+- Noise: The random variation in the series.
  
 **Autocorrelation (ACF)**:  
  ![acf](/images/acf.png)
