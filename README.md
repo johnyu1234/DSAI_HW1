@@ -22,9 +22,11 @@ This is an example of the dataset is used for training
  
 **Autocorrelation (ACF)**:  
  ![acf](/images/acf.png)
+ 
  Autocorrelation is the correlation of a single time series with a lagged copy of itself
 **Partial Autocorrelation (PACF)**:  
  ![pacf](/images/pacf.png)
+ 
 PACF can be imagined as the correlation between the series and its lag, after excluding the contributions from the intermediate lags.
 Both PACF and ACF are drawn to evaluate the Auto Regressive order and Moving average order of SARIMA
 ## Selecting best parameters for Model fitting using auto_arima()
