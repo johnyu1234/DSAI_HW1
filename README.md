@@ -20,9 +20,20 @@ This is an example of the dataset is used for training
 **Seasonal Decompose**:  
  ![Seasonal Decompose](/images/seasonal_decompose.png)
 
-## Model parameters 
-
-
+## Selecting best parameters for Model fitting
+```
+smodel = auto_arima(train, start_p=1, start_q=1,
+                           test='adf',
+                           max_p=7, max_q=7, m=7,
+                           start_P=0, seasonal=True,
+                           d=None, D=1, trace=True,
+                           error_action='ignore',  
+                           suppress_warnings=True,
+                           enforce_stationarity=False,
+                           enforce_invertibility=False,
+                           stepwise=True)
+```
+Returns best ARIMA model according to AIC value
 ## Recreating the environment and run the model##
 requirement libaries
 ```
